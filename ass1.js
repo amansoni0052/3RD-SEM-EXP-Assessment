@@ -15,7 +15,7 @@ class SessionManager extends EventEmitter {
 // Create object
 const session = new SessionManager();
 
-// greet listener
+// greet listener 
 session.on("greet", (username) => {
     console.log(`Hello, ${username}! Welcome.`);
 });
